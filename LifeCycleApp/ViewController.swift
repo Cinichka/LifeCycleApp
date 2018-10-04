@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var lifeAppText: UITextView!
+	var isExist = false
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		lifeAppText.text = ""
+		isExist = true
 	}
-
-
 }
 
